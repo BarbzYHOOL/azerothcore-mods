@@ -1,0 +1,10 @@
+<ul class="list-unstyled">
+    <li class="media" *ngFor="let mod of mods">
+        <img class="mr-3" src="{{mod.logoUrl}}" alt="Generic placeholder image">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"><a routerLink="/detail/{{mod.id}}">{{mod.name}}</a> <small>by <a target="_blank" href="{{mod.authorUrl}}">{{mod.author}}</a></small></h5>
+            <p>{{mod.description}}</p>
+            <p class="tags"><span class="badge badge-pill badge-info" *ngFor="let tag of mod.tags">{{tag}}</span></p>
+        </div>
+    </li>
+</ul>

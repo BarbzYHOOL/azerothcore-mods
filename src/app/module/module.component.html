@@ -1,0 +1,26 @@
+<div class="content" *ngIf="mod">
+    <div class="row">
+        <div class="col">
+            <a class="go-back" (click)="goBack()"><i class="fa fa-caret-left"></i> Go back</a>
+            <br/>
+            <h2 class="display-4"><img src="{{mod.logoUrl}}" alt="Logo"> {{mod.name}}</h2>
+            <p class="lead">by <a target="_blank" href="{{mod.authorUrl}}">{{mod.author}}</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-8">
+            {{mod.description}}
+        </div>
+        <div id="about" class="col-12 col-md-4">
+            <a class="btn btn-lg btn-success" target="_blank" href="{{mod.downloadUrl}}">Download <i class="fa fa-download"></i></a>
+
+            <h3>About this module</h3>
+            <ul class="list-unstyled">
+                <li>Module ID:  <span class="float-right">{{mod.id}}</span></li>
+                <li>Author: <span class="float-right">{{mod.author}}</span></li>
+                <li>Repo: <a class="float-right" target="_blank" href="{{mod.repoUrl}}">Visit the repo <i class="fa fa-external-link-alt"></i></a></li>
+                <li>License: <span class="float-right">{{mod.license}}</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
