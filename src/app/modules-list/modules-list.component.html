@@ -1,6 +1,6 @@
 <ul class="list-unstyled">
     <li class="media" *ngFor="let mod of mods">
-        <img class="mr-3" src="{{mod.logoUrl}}" alt="Generic placeholder image">
+        <img class="mr-3 mod-logo" src="{{mod.logoUrl}}" alt="AC Module">
         <div class="media-body">
             <h5 class="mt-0 mb-1"><a routerLink="/detail/{{mod.id}}">{{mod.name}}</a> <small>by <a target="_blank" href="{{mod.authorUrl}}">{{mod.author}}</a></small></h5>
             <p>{{mod.intro}}</p>

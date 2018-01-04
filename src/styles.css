@@ -26,6 +26,10 @@ li.media .tags span {
     margin-right: .3rem;
 }
 
+.mod.logo {
+    max-height: 100px;
+}
+
 .go-back {
     color: #aaa !important;
     cursor: pointer;
