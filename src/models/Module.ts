@@ -3,6 +3,7 @@ import { ModUpdate } from './ModUpdate';
 export class Module {
     id: number;
     name: string;
+    intro: string;
     description: string;
     version: string;
     author: string;
