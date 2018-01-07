@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ModulesListComponent } from './modules-list/modules-list.component';
 import { ModuleComponent } from './module/module.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { MarkdownModule } from 'angular2-markdown';
 
 import { ModuleService } from './module.service';
 
@@ -18,7 +19,8 @@ import { ModuleService } from './module.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MarkdownModule.forRoot()
   ],
   providers: [ModuleService],
   bootstrap: [AppComponent]
