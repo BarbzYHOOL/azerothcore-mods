@@ -95,4 +95,50 @@ export const DBMODULES: Module[] = [
         license: 'GNU Affero General Public License v3.0',
         updates: []
     },
+
+    {
+        id: 5,
+        name: 'PvPScript',
+        intro: 'Puts a players armor in a chest for other players to loot if they are killed. Only works in open world.',
+        description: 
+        `# PvPScript
+
+        This is a module for [AzerothCore](http://www.azerothcore.org)
+
+        Current features:
+
+        - Puts a player's armor in a chest for other players to loot if they are killed. Only works in open world.
+
+        Upcoming features:
+
+
+        ## Requirements
+
+        PvPScript Module currently requires:
+
+        AzerothCore v1.0.1+
+
+        ## How to install
+
+        ###1) Simply place the module under the _modules_ folder of your AzerothCore source folder.
+
+        ###2) Input the SQL file to the character database. (if any)
+
+        ###3) Re-run cmake and launch a clean build of AzerothCore
+
+        **That's it.**
+
+        ### (Optional) Edit module configuration
+
+        If you need to change the module configuration, go to your server configuration folder (e.g. **etc**), copy _PvPScript.conf.dist_ to _PvPScript.conf_ and edit it as you prefer.`,
+        version: '1.0.0',
+        author: 'Talarmortis',
+        authorUrl: 'https://github.com/talarmortis',
+        repoUrl: 'https://github.com/talamortis/mod-PvPScript',
+        downloadUrl: 'https://github.com/talamortis/mod-PvPScript/archive/master.zip',
+        logoUrl: 'https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png',
+        tags: ["pvp", "loot"],
+        license: 'GNU Affero General Public License v3.0',
+        updates: []
+    },
 ];
