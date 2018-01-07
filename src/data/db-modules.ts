@@ -18,12 +18,12 @@ export const DBMODULES: Module[] = [
         You can also tweak many other settings through the configuration file without recompiling.`,
         version: '1.0.0',
         author: 'Rotchet2',
-        authorUrl: `https://github.com/Rochet2`,
-        repoUrl: `https://github.com/azerothcore/mod-transmog/`,
-        downloadUrl: `https://github.com/azerothcore/mod-transmog/archive/master.zip`,
+        authorUrl: 'https://github.com/Rochet2',
+        repoUrl: 'https://github.com/azerothcore/mod-transmog/',
+        downloadUrl: 'https://github.com/azerothcore/mod-transmog/archive/master.zip',
         logoUrl: 'http://rochet2.github.io/images/icon_Transmogrification.png',
         tags: ["cosmetics", "items"],
-        license: 'GNU AGPL license',
+        license: 'GNU Affero General Public License v3.0',
         updates: []
     },
 
@@ -36,12 +36,12 @@ export const DBMODULES: Module[] = [
         ![Example](https://github.com/conan513/mod-phased-duels/raw/master/phasedduels.gif)`,
         version: '1.0.0',
         author: 'conan513',
-        authorUrl: `https://github.com/conan513`,
-        repoUrl: `https://github.com/conan513/mod-phased-duels`,
-        downloadUrl: `https://github.com/conan513/mod-phased-duels/archive/master.zip`,
+        authorUrl: 'https://github.com/conan513',
+        repoUrl: 'https://github.com/conan513/mod-phased-duels',
+        downloadUrl: 'https://github.com/conan513/mod-phased-duels/archive/master.zip',
         logoUrl: 'https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png',
         tags: ["pvp", "duels"],
-        license: 'GNU AGPL license',
+        license: 'GNU Affero General Public License v3.0',
         updates: []
     },
 
@@ -70,12 +70,29 @@ export const DBMODULES: Module[] = [
         `,
         version: '1.0.0',
         author: 'Kaev',
-        authorUrl: `https://github.com/Kaev`,
-        repoUrl: `https://github.com/Kaev/BetterItemReloading`,
-        downloadUrl: `https://github.com/Kaev/BetterItemReloading/archive/master.zip`,
+        authorUrl: 'https://github.com/Kaev',
+        repoUrl: 'https://github.com/Kaev/BetterItemReloading',
+        downloadUrl: 'https://github.com/Kaev/BetterItemReloading/archive/master.zip',
         logoUrl: 'https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png',
         tags: ["enhancement", "items"],
         license: 'MIT License',
+        updates: []
+    },
+
+    {
+        id: 4,
+        name: 'Item Level',
+        intro: 'Adds an item that allows players to levelup on use.',
+        description: 
+        `Adds an item that allows players to levelup on use.`,
+        version: '1.0.0',
+        author: 'Talarmortis',
+        authorUrl: 'https://github.com/talarmortis',
+        repoUrl: 'https://github.com/talamortis/mod-ItemLevel',
+        downloadUrl: 'https://github.com/talamortis/mod-ItemLevel/archive/master.zip',
+        logoUrl: 'https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png',
+        tags: ["leveling", "items"],
+        license: 'GNU Affero General Public License v3.0',
         updates: []
     },
 ];
